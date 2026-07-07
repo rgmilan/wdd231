@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Cebu Growth Chamber of Commerce supports Cebu businesses, tourism, construction, events, and economic growth.">
+    <meta name="author" content="Argy Milan">
+    <title>Cebu Growth Chamber of Commerce</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="brand">
+            <img src="images/logo.svg" alt="Cebu Growth Chamber logo" width="60" height="60">
+            <span>Cebu Growth Chamber</span>
+        </div>
+
+        <button id="menu" aria-label="Open navigation menu"></button>
+    </header>
+
+    <nav id="nav">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Building Cebu's Business Future</h1>
+                <p>Connecting local businesses, supporting entrepreneurs, and strengthening Cebu’s economy.</p>
+                <a href="join.html" class="button">Join the Chamber</a>
+            </div>
+        </section>
+
+        <section class="card weather">
+            <h2>Current Weather</h2>
+            <p><strong>Location:</strong> Cebu City, Philippines</p>
+            <p><strong>Temperature:</strong> <span id="temperature">Loading...</span></p>
+            <p><strong>Condition:</strong> <span id="condition">Loading...</span></p>
+            <p><strong>Humidity:</strong> <span id="humidity">Loading...</span></p>
+        </section>
+
+        <section class="card events">
+            <h2>Upcoming Business Events</h2>
+            <ul>
+                <li><strong>July 8:</strong> Cebu Business Networking Night</li>
+                <li><strong>July 15:</strong> Small Business Growth Seminar</li>
+                <li><strong>July 22:</strong> Construction and Real Estate Forum</li>
+            </ul>
+        </section>
+
+        <section class="card spotlights">
+            <h2>Featured Businesses</h2>
+
+            <div class="spotlight-grid">
+                <article>
+                    <img src="images/cebu-home-builders.png" alt="Cebu Home Builders construction business" width="600"
+                        height="400">
+                    <h3>Cebu Home Builders</h3>
+                    <p>A local construction and home improvement business helping Cebu families and companies build
+                        better spaces.</p>
+                </article>
+
+                <article>
+                    <img src="images/10000-roses-cafe.png" alt="10000 Roses Cafe in Cebu" width="600" height="400">
+                    <h3>10,000 Roses Café</h3>
+                    <p>A popular Cebu destination that supports local tourism, food service, and small business growth.
+                    </p>
+                </article>
+
+                <article>
+                    <img src="images/pacific-cebu-resort.png" alt="Pacific Cebu Resort" width="600" height="400">
+                    <h3>Pacific Cebu Resort</h3>
+                    <p>A Cebu resort business supporting hospitality, tourism, employment, and local economic activity.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="card news">
+            <h2>Latest Business News</h2>
+
+            <div class="news-grid">
+                <article>
+                    <img src="images/cebu-business-hub.png" alt="Cebu business district and buildings" width="800"
+                        height="500">
+                    <h3>Cebu continues to grow as a business hub</h3>
+                    <p>
+                        Cebu remains one of the strongest business centers in the Visayas, with growth in tourism,
+                        construction, real estate, technology, and food businesses.
+                    </p>
+                </article>
+
+                <article>
+                    <img src="images/cebu-colon.png" alt="Colon Street Cebu business area" width="800" height="500">
+                    <h3>Colon and downtown Cebu continue to support local trade</h3>
+                    <p>
+                        Colon Street and nearby business areas remain important places for retail, services,
+                        transport, and small entrepreneurs in Cebu City.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Grow Your Business with Us</h2>
+            <p>
+                Join the Cebu Growth Chamber and connect with business owners, suppliers, investors,
+                and community leaders.
+            </p>
+            <a href="join.html" class="button">Become a Member</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+        </div>
+
+        <p>&copy; <span id="currentyear"></span> 🔥 Argy Milan 🔥 Philippines</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
