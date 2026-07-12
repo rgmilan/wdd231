@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cebu Growth Chamber | Business Directory</title>
+
+    <meta name="description"
+        content="Explore the Cebu Growth Chamber business directory and discover local companies, services, and chamber members throughout Cebu.">
+
+    <meta name="author" content="Argy Milan">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Cebu Growth Chamber Business Directory">
+    <meta property="og:description"
+        content="Explore Cebu businesses, chamber members, business services, and local opportunities that strengthen the Cebu business community.">
+    <meta property="og:image" content="https://rgmilan.github.io/wdd231/chamber/images/cebu-skyline.png">
+    <meta property="og:url" content="https://rgmilan.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_PH">
+    <meta property="og:site_name" content="Cebu Growth Chamber of Commerce">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-area">
+            <img src="images/logo.png" alt="Cebu Growth Chamber logo" width="70" height="70">
+
+            <div>
+                <h1>Cebu Growth Chamber</h1>
+                <p>Connecting Business. Building Cebu.</p>
+            </div>
+        </div>
+
+        <button id="menu" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navigation"></button>
+    </header>
+
+    <nav id="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html" class="active">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1 class="page-title">Business Directory</h1>
+
+        <section class="directory-controls">
+            <h2 class="visually-hidden">Directory Display Options</h2>
+
+            <div class="view-buttons">
+                <button id="grid" class="active-view" type="button" aria-label="Show members in grid view">
+                    Grid
+                </button>
+
+                <button id="list" type="button" aria-label="Show members in list view">
+                    List
+                </button>
+            </div>
+        </section>
+
+        <section class="directory-section">
+            <h2 class="visually-hidden">Cebu Growth Chamber Members</h2>
+
+            <div id="members" class="grid">
+                <p>Loading chamber members...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer-contact">
+            <h2>Cebu Growth Chamber of Commerce</h2>
+            <p>Archbishop Reyes Avenue</p>
+            <p>Cebu City, Philippines 6000</p>
+            <p>
+                <a href="mailto:info@cebugrowthchamber.org">
+                    info@cebugrowthchamber.org
+                </a>
+            </p>
+            <p>
+                <a href="tel:+63328888888">
+                    (032) 888-8888
+                </a>
+            </p>
+        </section>
+
+        <section class="socials">
+            <h2 class="visually-hidden">Social Media Links</h2>
+
+            <a href="https://github.com/rgmilan" target="_blank" rel="noopener">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+                LinkedIn
+            </a>
+
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+                Facebook
+            </a>
+        </section>
+
+        <section class="footer-development">
+            <h2 class="visually-hidden">Project Information</h2>
+
+            <p>WDD 231 Class Project</p>
+            <p>Argy Milan</p>
+
+            <p>
+                &copy;
+                <span id="currentyear"></span>
+                Cebu Growth Chamber of Commerce
+            </p>
+
+            <p id="lastModified"></p>
+        </section>
+    </footer>
+</body>
+
+</html>
