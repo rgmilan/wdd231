@@ -423,28 +423,3 @@ footer a:focus-visible {
     justify-content: center;
     gap: 1rem;
 }
-
-.site-name {
-    display: block;
-    font-size: 1.55rem;
-    font-weight: 700;
-    line-height: 1.2;
-}
-
-.page-title {
-    margin: 0 0 1rem;
-    color: #0b3d5c;
-    text-align: center;
-}
-
-.hero-heading {
-    max-width: 700px;
-    margin: 0 0 0.75rem;
-    font-size: clamp(2rem, 8vw, 3rem);
-    font-weight: 700;
-    line-height: 1.15;
-}
-
-.footer-heading {
-    font-weight: 700;
-}
