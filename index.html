@@ -4,154 +4,301 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cebu Growth Chamber | Home</title>
+
     <meta name="description"
-        content="Cebu Growth Chamber of Commerce supports Cebu businesses, tourism, construction, events, and economic growth.">
+        content="Official website of the Cebu Growth Chamber of Commerce promoting local businesses, tourism, investment, and entrepreneurship in Cebu City.">
+
     <meta name="author" content="Argy Milan">
-    <title>Cebu Growth Chamber of Commerce</title>
+
     <link rel="icon" href="favicon.ico">
 
+    <!-- Facebook Open Graph -->
+    <meta property="og:title" content="Cebu Growth Chamber">
+    <meta property="og:description"
+        content="Connecting Cebu businesses, entrepreneurs, investors, and the local community.">
+    <meta property="og:image" content="https://rgmilan.github.io/wdd231/chamber/images/logo.svg">
+    <meta property="og:url" content="https://rgmilan.github.io/wdd231/chamber/">
+
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
 
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/date.js" defer></script>
     <script src="scripts/weather.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
 </head>
 
 <body>
+
     <header>
-        <div class="brand">
-            <img src="images/logo.svg" alt="Cebu Growth Chamber logo" width="60" height="60">
-            <span>Cebu Growth Chamber</span>
+
+        <div class="logo-area">
+
+            <img src="images/logo.svg" alt="Cebu Growth Chamber Logo" width="70" height="70">
+
+            <div>
+
+                <h1>Cebu Growth Chamber</h1>
+
+                <p>Connecting Business. Building Cebu.</p>
+
+            </div>
+
         </div>
 
-        <button id="menu" aria-label="Open navigation menu"></button>
+        <button id="menu" aria-label="Navigation Menu"></button>
+
     </header>
 
-    <nav id="nav">
+    <nav id="navigation">
+
         <ul>
-            <li><a href="index.html" class="active">Home</a></li>
+
+            <li><a class="active" href="index.html">Home</a></li>
+
             <li><a href="discover.html">Discover</a></li>
+
             <li><a href="directory.html">Directory</a></li>
+
             <li><a href="join.html">Join</a></li>
+
             <li><a href="contact.html">Contact</a></li>
+
         </ul>
+
     </nav>
 
     <main>
+
         <section class="hero">
 
-            <h2 class="visually-hidden">Welcome</h2>
+            <img src="images/cebu-skyline.png" alt="Cebu City Skyline" width="1600" height="700">
 
-            <div class="hero-text">
+            <div class="hero-overlay">
+
                 <h1>Building Cebu's Business Future</h1>
 
                 <p>
-                    Connecting local businesses, supporting entrepreneurs,
-                    and strengthening Cebu's economy.
+                    Connecting entrepreneurs, supporting local businesses,
+                    and creating opportunities throughout Cebu.
                 </p>
 
-                <a href="join.html" class="button">
+                <a href="join.html" class="cta-button">
                     Join the Chamber
                 </a>
+
             </div>
 
         </section>
 
-        <section class="card weather">
-            <h2>Current Weather</h2>
-            <p><strong>Location:</strong> Cebu City, Philippines</p>
-            <p><strong>Temperature:</strong> <span id="temperature">Loading...</span></p>
-            <p><strong>Condition:</strong> <span id="condition">Loading...</span></p>
-            <p><strong>Humidity:</strong> <span id="humidity">Loading...</span></p>
+        <section class="info-grid">
+
+            <section class="card">
+
+                <h2>Current Weather</h2>
+
+                <p><strong>Location:</strong> Cebu City, Philippines</p>
+
+                <p><strong>Temperature:</strong>
+                    <span id="temperature">Loading...</span>
+                </p>
+
+                <p><strong>Condition:</strong>
+                    <span id="condition">Loading...</span>
+                </p>
+
+                <p><strong>Humidity:</strong>
+                    <span id="humidity">Loading...</span>
+                </p>
+
+            </section>
+
+            <section class="card">
+
+                <h2>Upcoming Business Events</h2>
+
+                <ul>
+
+                    <li>
+                        <strong>July 12</strong><br>
+                        Cebu Business Networking Night
+                    </li>
+
+                    <li>
+                        <strong>July 18</strong><br>
+                        Small Business Growth Seminar
+                    </li>
+
+                    <li>
+                        <strong>July 26</strong><br>
+                        Cebu Construction and Real Estate Forum
+                    </li>
+
+                </ul>
+
+            </section>
+
         </section>
 
-        <section class="card events">
-            <h2>Upcoming Business Events</h2>
-            <ul>
-                <li><strong>July 8:</strong> Cebu Business Networking Night</li>
-                <li><strong>July 15:</strong> Small Business Growth Seminar</li>
-                <li><strong>July 22:</strong> Construction and Real Estate Forum</li>
-            </ul>
-        </section>
+        <section class="spotlights">
 
-        <section class="card spotlights">
             <h2>Featured Businesses</h2>
 
-            <div class="spotlight-grid">
-                <article>
-                    <img src="images/cebu-home-builders.png" alt="Cebu Home Builders construction business" width="600"
-                        height="400">
+            <div class="business-grid">
+
+                <article class="business-card">
+
+                    <img src="images/cebu-home-builders.png" alt="Cebu Home Builders">
+
                     <h3>Cebu Home Builders</h3>
-                    <p>A local construction and home improvement business helping Cebu families and companies build
-                        better spaces.</p>
+
+                    <p>
+                        Cebu's trusted supplier of construction materials,
+                        hardware, and home improvement products.
+                    </p>
+
                 </article>
 
-                <article>
-                    <img src="images/10000-roses-cafe.png" alt="10000 Roses Cafe in Cebu" width="600" height="400">
+                <article class="business-card">
+
+                    <img src="images/10000-roses-cafe.png" alt="10000 Roses Café">
+
                     <h3>10,000 Roses Café</h3>
-                    <p>A popular Cebu destination that supports local tourism, food service, and small business growth.
+
+                    <p>
+                        One of Cebu's most popular tourist destinations,
+                        supporting local food businesses and tourism.
                     </p>
+
                 </article>
 
-                <article>
-                    <img src="images/pacific-cebu-resort.png" alt="Pacific Cebu Resort" width="600" height="400">
+                <article class="business-card">
+
+                    <img src="images/pacific-cebu-resort.png" alt="Pacific Cebu Resort">
+
                     <h3>Pacific Cebu Resort</h3>
-                    <p>A Cebu resort business supporting hospitality, tourism, employment, and local economic activity.
+
+                    <p>
+                        Supporting Cebu's hospitality industry through
+                        world-class accommodations and local employment.
                     </p>
+
                 </article>
+
             </div>
+
         </section>
 
-        <section class="card news">
+        <section class="news">
+
             <h2>Latest Business News</h2>
 
             <div class="news-grid">
+
                 <article>
-                    <img src="images/cebu-business-hub.png" alt="Cebu business district and buildings" width="800"
-                        height="500">
+
+                    <img src="images/cebu-business-hub.png" alt="Cebu Business Hub">
+
                     <h3>Cebu continues to grow as a business hub</h3>
+
                     <p>
-                        Cebu remains one of the strongest business centers in the Visayas, with growth in tourism,
-                        construction, real estate, technology, and food businesses.
+
+                        Cebu remains one of the fastest-growing business
+                        centers in the Visayas, attracting investments
+                        in construction, technology, tourism, and real estate.
+
                     </p>
+
                 </article>
 
                 <article>
-                    <img src="images/cebu-colon.png" alt="Colon Street Cebu business area" width="800" height="500">
-                    <h3>Colon and downtown Cebu continue to support local trade</h3>
+
+                    <img src="images/cebu-colon.png" alt="Colon Street Cebu">
+
+                    <h3>Colon Street continues to support local commerce</h3>
+
                     <p>
-                        Colon Street and nearby business areas remain important places for retail, services,
-                        transport, and small entrepreneurs in Cebu City.
+
+                        Downtown Cebu remains one of the country's busiest
+                        commercial districts, supporting thousands of
+                        local entrepreneurs every day.
+
                     </p>
+
                 </article>
+
             </div>
+
         </section>
 
-        <section class="cta">
+        <section class="join-banner">
+
             <h2>Grow Your Business with Us</h2>
+
             <p>
-                Join the Cebu Growth Chamber and connect with business owners, suppliers, investors,
-                and community leaders.
+
+                Become a member of the Cebu Growth Chamber and gain access
+                to networking opportunities, business promotion,
+                training programs, and community events.
+
             </p>
-            <a href="join.html" class="button">Become a Member</a>
+
+            <a href="join.html" class="cta-button">
+
+                Become a Member
+
+            </a>
+
         </section>
+
     </main>
 
     <footer>
-        <div class="social">
-            <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
-        </div>
 
-        <p>&copy; <span id="currentyear"></span> 🔥 Argy Milan 🔥 Philippines</p>
-        <p id="lastModified"></p>
+        <section>
+
+            <h3>Cebu Growth Chamber</h3>
+
+            <p>Cebu City, Philippines</p>
+
+            <p>info@cebugrowthchamber.org</p>
+
+            <p>(032) 888-8888</p>
+
+        </section>
+
+        <section class="socials">
+
+            <a href="https://github.com/rgmilan" target="_blank">GitHub</a>
+
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+
+        </section>
+
+        <section>
+
+            <p>
+                &copy;
+                <span id="currentyear"></span>
+                Argy Milan | WDD 231
+            </p>
+
+            <p id="lastModified"></p>
+
+        </section>
+
     </footer>
+
 </body>
 
 </html>

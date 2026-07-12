@@ -1,0 +1,28 @@
+{
+    "family_name": "Milan",
+    "move_in_date": "2025-08-15",
+    "number_of_people": 4,
+    "visited_by_bishopric": false,
+    "family_members": [
+        {
+            "name": "Argy Milan",
+            "gender": "Male",
+            "birthdate": "1988-04-18"
+        },
+        {
+            "name": "Joan Milan",
+            "gender": "Female",
+            "birthdate": "1990-09-12"
+        },
+        {
+            "name": "Ethan Milan",
+            "gender": "Male",
+            "birthdate": "2016-06-25"
+        },
+        {
+            "name": "Sophia Milan",
+            "gender": "Female",
+            "birthdate": "2019-11-08"
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+  "members": [
+    {
+      "name": "Cebu Home Builders",
+      "address": "A.S. Fortuna Street, Mandaue City, Cebu",
+      "phone": "(032) 255-1044",
+      "website": "https://www.cebuhomebuilders.com",
+      "image": "cebu-home-builders.png",
+      "membership": 3,
+      "category": "Construction",
+      "description": "A trusted Cebu construction and home improvement supplier serving contractors, builders, and homeowners."
+    },
+    {
+      "name": "10,000 Roses Caf\u00e9",
+      "address": "Day-as, Cordova, Cebu",
+      "phone": "(032) 401-0100",
+      "website": "https://www.10000rosescafe.com",
+      "image": "10000-roses-cafe.png",
+      "membership": 2,
+      "category": "Restaurant and Caf\u00e9",
+      "description": "A Cebu caf\u00e9 and tourist destination supporting local food service and tourism."
+    },
+    {
+      "name": "Pacific Cebu Resort",
+      "address": "Suba-basbas, Lapu-Lapu City, Cebu",
+      "phone": "(032) 495-6601",
+      "website": "https://www.pacificcebu-resort.com",
+      "image": "pacific-cebu-resort.png",
+      "membership": 3,
+      "category": "Hospitality",
+      "description": "A resort business supporting Cebu tourism, hospitality, employment, and local economic activity."
+    },
+    {
+      "name": "Cebu Business Hub",
+      "address": "Cebu IT Park, Lahug, Cebu City",
+      "phone": "(032) 412-9000",
+      "website": "https://www.cebusbusinesshub.com",
+      "image": "cebu-business-hub.png",
+      "membership": 3,
+      "category": "Business Services",
+      "description": "A business support center for entrepreneurs, startups, and growing companies in Cebu."
+    },
+    {
+      "name": "Colon Trade Center",
+      "address": "Colon Street, Cebu City",
+      "phone": "(032) 253-7788",
+      "website": "https://www.colontradecenter.com",
+      "image": "cebu-colon.png",
+      "membership": 1,
+      "category": "Retail",
+      "description": "A downtown Cebu retail and trade business supporting local shoppers and entrepreneurs."
+    },
+    {
+      "name": "Mactan Island Tours",
+      "address": "Mactan, Lapu-Lapu City, Cebu",
+      "phone": "(032) 340-8899",
+      "website": "https://www.mactanislandtours.com",
+      "image": "mactan-tour.png",
+      "membership": 2,
+      "category": "Tourism",
+      "description": "A local tour service helping visitors experience Cebu beaches, heritage sites, and island adventures."
+    },
+    {
+      "name": "Cebu Tech Solutions",
+      "address": "Cebu Business Park, Cebu City",
+      "phone": "(032) 520-4567",
+      "website": "https://www.cebutechsolutions.com",
+      "image": "cebu-tech.png",
+      "membership": 2,
+      "category": "Technology",
+      "description": "A Cebu-based technology company offering web development, IT support, and digital business solutions."
+    }
+  ]
+}
